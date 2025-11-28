@@ -1,14 +1,45 @@
 body {
-    color:blueviolet;
-    background:black;
-    font-family:"Faculty Glyphic",serif;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+font-family: "Faculty Glyphic", serif;
 }
 
 .chamada {
-    background-color: aquamarine;
-padding-brotton:80px;
-padding:top:80px;
-display:flex;
-justify-content:center;
+background: #f8a5f800;
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
 }
 
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+div {
+margin-right: 20px;
+}
+
+.chamada-texto {
+margin-right: 5%;
+margin-left: 5%;
+}
+
+img {
+height: 200px;
+}
+
+.categoria-videos {
+display: flex;
+overflow-x: auto;
+gap: 10px;
+}
+
+h1 {
+font-size: 30px;
+}
+
+p {
+font-size: 20px;
+}
